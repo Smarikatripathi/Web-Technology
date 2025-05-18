@@ -1,0 +1,44 @@
+h1{
+
+    background-color: rgba(46, 10, 46, 0.705);
+    
+    font-size: 2em;
+    color: white;
+    text-align: center;
+}
+.col{
+   
+    color:  red
+}
+
+table {
+    width:100%;
+    border-collapse:collapse;
+    margin: 1px 0;
+    border-spacing: 10px;
+    
+}
+th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+}
+th {
+    background-color: lightblue;
+}
+.container {
+    padding: 1px;
+    width: 100%;
+    max-width: 800px;
+    background-color: #e8f162;
+    border-left: 10px solid #caa604;
+    color: black;
+}
+.box {
+    padding: 1px;
+    background-color: rgb(66, 218, 66);
+    border: 2px solid #ccc;
+    border: black 2px solid;
+    
+}
+    
