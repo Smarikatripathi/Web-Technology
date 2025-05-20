@@ -43,6 +43,7 @@ body{
 }
 .profile-picture {
   justify-content: center;
+  align-items: center;
   width: 150px;
   height: 150px;
   border-radius: 50%;
@@ -51,8 +52,19 @@ body{
 }
 
 .profile-picture img {
+  justify-content: center;
   align-items: center;
   width: 100%;
   height: 100%;
   object-fit: cover;
+}
+.profile-btn {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 10px 20px;
+  background-color: #28a745;
+  color: white;
+  text-decoration: none;
+  border-radius: 6px;
+  font-weight: bold;
 }
