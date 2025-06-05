@@ -1,5 +1,12 @@
-Electrive-I (Advance Web Technology)
-Practice-1 (Assignment-1)
-http://192.168.1.71:5500/Practice-1/index.html
-Practice-2 (Assignment-2)
-http://192.168.1.71:5500/Practice-2/
+<img src="assets/Practice-1.png"  width="500"/>
+<img src="assets/Practice-2.png"  width="500"/>
+<img src="assets/JsTask-1.png"  width="500"/>
+<img src="assets/jsTask-2.png"  width="500"/>
+<img src="assets/jsTask-3.png"  width="500"/>
+<img src="assets/jsTask-4.png"  width="500"/>
+<img src="assets/jsTask-5.png"  width="500"/>
+<img src="assets/1.png"  width="500"/>
+<img src="assets/2.png"  width="500"/>
+<img src="assets/3.png"  width="500"/>
+<img src="assets/4.png"  width="500"/>
+<img src="assets/5.png"  width="500"/>

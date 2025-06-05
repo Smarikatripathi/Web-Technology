@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head><title>Task 4: Phone Number Validation</title></head>
+<body>
+<h3>Task 4: Validate a 10-digit phone number</h3>
+<p id="result"></p>
+
+<script>
+  const phone = "9876543210";
+  const regex = /^\d{10}$/;
+  document.getElementById("result").textContent = regex.test(phone)
+    ? "Valid 10-digit phone number."
+    : "Invalid phone number.";
+</script>
+</body>
+</html>

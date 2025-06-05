@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head><title>Task 2: Only Letters</title></head>
+<body>
+<h3>Task 2: Validate input with only letters (A–Z)</h3>
+<p id="result"></p>
+
+<script>
+  const input = "HelloWorld";
+  const regex = /^[a-zA-Z]+$/;
+  document.getElementById("result").textContent = regex.test(input)
+    ? "Valid input (letters only)."
+    : "Invalid input (contains non-letters).";
+</script>
+</body>
+</html>

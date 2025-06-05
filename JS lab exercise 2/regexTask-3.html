@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head><title>Task 3: Email Validation</title></head>
+<body>
+<h3>Task 3: Validate a simple email address</h3>
+<p id="result"></p>
+
+<script>
+  const email = "user123@gmail.com";
+  const regex = /^[a-zA-Z0-9._]+@[a-zA-Z]+\.[a-zA-Z]{2,}$/;
+  document.getElementById("result").textContent = regex.test(email)
+    ? "Valid email address."
+    : "Invalid email address.";
+</script>
+</body>
+</html>
