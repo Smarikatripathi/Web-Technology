@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Task 4 - Vehicle with Prototype</title>
+</head>
+<body>
+  <h2>Task 4: Vehicle Prototype Method</h2>
+  <p>Check the console for output.</p>
+
+  <script>
+    function Vehicle(brand, model, year) {
+      this.brand = brand;
+      this.model = model;
+      this.year = year;
+    }
+
+    Vehicle.prototype.getAge = function() {
+      const currentYear = new Date().getFullYear();
+      return `${this.brand} ${this.model} is ${currentYear - this.year} years old.`;
+    };
+
+    const car1 = new Vehicle("Toyota", "Yaris", 2019);
+    const car2 = new Vehicle("Hyundai", "i20", 2021);
+
+    console.log(car1.getAge());
+    console.log(car2.getAge());
+  </script>
+</body>
+</html>

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Task 5 - Library System</title>
+</head>
+<body>
+  <h2>Task 5: Library System (Class + Prototype)</h2>
+  <p>Check the console for output.</p>
+
+  <script>
+    class Book {
+      constructor(title, author) {
+        this.title = title;
+        this.author = author;
+        this.available = true;
+      }
+
+      toggleAvailability() {
+        this.available = !this.available;
+      }
+    }
+
+    Book.prototype.getBookInfo = function() {
+      return `Title: "${this.title}", Author: ${this.author}, Available: ${this.available}`;
+    };
+
+    const book1 = new Book("Intro to JS", "Jane Doe");
+    const book2 = new Book("CSS Mastery", "John Smith");
+
+    book2.toggleAvailability();
+
+    console.log(book1.getBookInfo());
+    console.log(book2.getBookInfo());
+  </script>
+</body>
+</html>

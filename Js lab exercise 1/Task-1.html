@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Task 1 - Product Object</title>
+</head>
+<body>
+  <h2>Task 1: Product Object (Object Literal)</h2>
+  <p>Check the console for output.</p>
+
+  <script>
+    const product = {
+      name: "Bluetooth Speaker",
+      price: 1500,
+      inStock: true,
+      getDetails() {
+        return `Product: ${this.name}, Price: Rs. ${this.price}, In Stock: ${this.inStock}`;
+      }
+    };
+
+    console.log(product.getDetails());
+  </script>
+</body>
+</html>

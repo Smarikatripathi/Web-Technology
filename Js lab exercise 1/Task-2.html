@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Task 2 - Student Object</title>
+</head>
+<body>
+  <h2>Task 2: Student Object (new Object())</h2>
+  <p>Check the console for output.</p>
+
+  <script>
+    const student = new Object();
+    student.name = "Smarika Tripathi";
+    student.age = 22;
+    student.subjects = [];
+
+    student.addSubject = function(subject) {
+      this.subjects.push(subject);
+    };
+
+    student.addSubject("Web Technology");
+    student.addSubject("AI");
+
+    console.log(`Name: ${student.name}`);
+    console.log(`Age: ${student.age}`);
+    console.log(`Subjects: ${student.subjects.join(", ")}`);
+  </script>
+</body>
+</html>
